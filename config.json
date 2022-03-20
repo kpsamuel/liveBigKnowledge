@@ -1,0 +1,16 @@
+{
+	"apiHostName" : "localhost",
+	"apiPortNumber" : 7000,
+	"dbHostName" : "localhost",
+	"dbPortNumber" : 27017,
+	"dbName" : "bigliveknowledge",
+	"backupDataFolder" : "dataBackup",
+	"errorID" : {
+				  "-1"  : "system error occured",
+				  "500" : "database conenction failed",
+				  "501" : "database data insertion failed",
+				  "502" : "data write error",
+				  "503" : "data deletion error",
+				  "504" : "data read error",
+				  "505" : "data update failed"}
+}
